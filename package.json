@@ -15,13 +15,14 @@
     "Vue",
     "Webpack 4"
   ],
-  "author": "samteb <sam.teboul@gmail.com>",
+  "author": "rwhoops <rwhooperIV@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/samteb/vue-2-webpack-4-boilerplate",
   "dependencies": {
     "@babel/polyfill": "~7.2",
     "vue": "~2.6",
-    "vue-router": "~3.0"
+    "vue-router": "~3.0",
+    "register-service-worker": "^1.7.1"
   },
   "devDependencies": {
     "@babel/core": "~7.2",
@@ -46,6 +47,7 @@
     "eslint-plugin-promise": "~3.5",
     "eslint-plugin-standard": "~3.0",
     "eslint-plugin-vue": "~5.1",
+    "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "~1.7",
     "html-webpack-plugin": "~3.2",
     "mini-css-extract-plugin": "~0.5",
