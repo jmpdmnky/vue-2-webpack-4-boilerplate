@@ -1,3 +1,5 @@
+/* originally based on https://medium.com/js-dojo/how-to-configure-webpack-4-with-vuejs-a-complete-guide-209e943c4772 */
+
 'use strict';
 
 const webpack              = require('webpack');
