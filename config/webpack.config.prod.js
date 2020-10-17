@@ -12,6 +12,7 @@ const helpers                  = require('./helpers');
 const commonConfig             = require('./webpack.config.common');
 const isProd                   = process.env.NODE_ENV === 'production';
 const environment              = isProd ? require('./env/prod.env') : require('./env/staging.env');
+const { CleanWebpackPlugin }   = require('clean-webpack-plugin');
 
 const webpackConfig = merge(commonConfig, {
     mode: 'production',
@@ -69,7 +70,8 @@ const webpackConfig = merge(commonConfig, {
             threshold: 10240,
             minRatio: 0.8
         }),
-        new webpack.HashedModuleIdsPlugin()
+        new webpack.HashedModuleIdsPlugin(),
+        new CleanWebpackPlugin()
     ]
 });
 
