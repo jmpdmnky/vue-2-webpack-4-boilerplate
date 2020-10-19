@@ -1,6 +1,6 @@
 <template>
-    <div>
-    <h1>Home Page</h1>
+  <div>
+    <h1>Other Page</h1>
         <p> 
             stuff
         </p>
@@ -96,7 +96,7 @@ import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
 
 export default {
-    name: 'AppHome'
+    name: 'OtherPage'
 };
 </script>
 
